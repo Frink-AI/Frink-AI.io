@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Terms and Conditions Frink Artificial Intelligence</title>
+</head>
+
+<body>
+    <h1>Terms and Conditions Frink Artificial Intelligence</h1>
+
+    <form id="termsForm">
+        <h3>Please read and accept the Terms and Conditions:</h3>
+        <div>
+            <textarea readonly cols="100" rows="20">
+Please read these Terms and Conditions carefully before providing any personal data to Frink Artificial Intelligence ("Frink AI"). By providing your data, you agree to comply with and be bound by these Terms and Conditions.
+Data Collection and Usage: 
+
+1.1. Frink AI may collect personal data from you in order to provide you with the requested services and improve the functionality of Frink AI. 1.2. The types of personal data collected may include, but are not limited to, your name, email address, phone number, location, and any other information necessary for the specified purpose. 1.3. Frink AI will use your personal data solely for the purpose of providing the services and features of Frink AI, unless otherwise specified or with your explicit consent.
+
+Data Protection: 
+2.1. Frink AI is committed to protecting your personal data and employs industry-standard security measures to safeguard it against unauthorized access, loss, or misuse. 2.2. While we take reasonable precautions, please note that no method of data transmission over the internet or electronic storage is 100% secure. Therefore, Frink AI cannot guarantee the absolute security of your personal data.
+
+Data Sharing: 
+3.1. Frink AI will not share your personal data with any third parties except in the following cases: a. With your consent: If you give explicit consent for the sharing of your personal data. b. Legal requirements: If required by law, regulation, legal process, or governmental request. c. Service providers: Frink AI may engage third-party service providers to assist in providing the requested services. These service providers are bound by confidentiality agreements and are prohibited from using your personal data for any other purposes.
+
+Data Retention: 
+4.1. Frink AI will retain your personal data for as long as necessary to fulfill the purposes outlined in these Terms and Conditions, unless a longer retention period is required or permitted by law. 4.2. If you wish to request the deletion or modification of your personal data, please contact us using the contact information provided in these Terms and Conditions.
+
+Consent and Control: 
+5.1. By providing your personal data to Frink AI, you consent to the collection, use, and sharing of your data as outlined in these Terms and Conditions. 5.2. You have the right to withdraw your consent or exercise control over your personal data. You may request access to your personal data, update or correct any inaccuracies, or request the deletion of your data by contacting us using the contact information provided.
+
+Changes to the Terms and Conditions: 
+6.1. Frink AI reserves the right to modify or update these Terms and Conditions at any time. Any changes will be effective immediately upon posting on our website or through other communication channels. 6.2. It is your responsibility to review these Terms and Conditions periodically to stay informed of any updates or modifications.
+Contact Information: If you have any questions, concerns, or requests regarding these Terms and Conditions or the use of your personal data, please contact us at: Frink Artificial Intelligence
+            </textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="acceptCheckbox" required>
+            <label for="acceptCheckbox">I accept the Terms and Conditions</label>
+        </div>
+        <div>
+            <re><a href="chat3.html" <button type="submit">Submit </button>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("termsForm").addEventListener("submit", function (event) {
+            if (!document.getElementById("acceptCheckbox").checked) {
+                event.preventDefault();
+                alert("Please accept the Terms and Conditions to proceed.");
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frink Artificial Intelligence</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+      font-size: 10px;
+    }
+
+    header {
+      background-color: #030f04;
+      font-family: monospace;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .newsletter {
+      display: flex;
+      align-items: center;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+
+    .newsletter input[type="submit"] {
+      background-color: #918925;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #918925;
+      font-family: monospace;
+      font-size: xx-large;
+
+      color: white;
+      padding: 15px 15px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background-color: #ff5722;
+    }
+
+    .login {
+      display: flex;
+      align-items: center;
+    }
+
+    .login input[type="text"],
+    .login input[type="password"] {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+        
+    .login input[type="submit"] {
+      background-color: #918925;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .main-section {
+      background-image: url('background.jpg');
+      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-flexbox;
+      padding: 300px;
+    }
+
+    .inflight-image {
+      
+      position: absolute;
+      top: 200;
+      left: 0;
+      z-index: 11;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      
+    }
+
+    .footer {
+      background-color: #1d1d1d;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    
+    <div class="newsletter">
+      <h2>Frink Artificial Intelligence</h2>
+      <form id="newsletterForm" onsubmit="sendWelcomeEmail(event)">
+        <h1>Newsletter</h1>
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+        <input type="submit" href="chat3.html" value="Subscribe">
+        
+      </form>
+    </div>
+    <div class="login">
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="submit" value="Login">
+    </div>
+    <nav>
+        <ul>
+          <re><a href="Frink-AI.html"class="button">Home</a></re>
+          <re><a href="Swap.html"class="button">Swap</a></re>
+          <re><a href="Staking.html"class="button">Staking</a></re>
+          <re><a href="pools.html"class="button">Pools</a></re>
+          <re><a href="Springfield.html"class="button">Springfield</a></re>
+          <re><a href="Road.html"class="button">Roadmap</a></re>
+          <re><a href="Burn.html"class="button">Burn</a></re>
+          
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <div class="main-section">
+        <div class="left-section">
+          <h2>Welcome to Frink Artificial Intelligence!</h2>
+          
+        </div>
+        </section>
+        <nav>
+            <ul>
+              <li><a href="Pinksale" class="button">Pinksale Launch</a></li>
+              <li><a href="Swap.html" class="button">Swap</a></li>
+              <li><a href="Staking.html" class="button">Staking</a></li>
+              <li><a href="pools.html" class="button">AI Meme Pool Generator</a></li>
+              <re><a href="Springfield.html"class="button">Springfield</a></re>
+              
+              <li><a href="Burn.html" class="button">Burn</a></li>
+              
+            </ul>
+          </nav>
+   
+    
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 Frink Artificial Intelligence. All rights reserved.</p>
+
+    <a href="Team.html" class="button">Team</a>
+    <a href="#" class="button">Twitter</a>
+    <a href="#" class="button">Telegram</a>
+    <a href="#" class="button">PancakeSwap</a>
+    <a href="https://twitter.com/KennySwap" class="button">Follow us on Twitter</a>
+  </footer>
+
+  <script>
+    function redirectToOtherWebsite() {var email = document.getElementById("email").value;window.location.href = "Terms&Conditions.html";
+        }
+      event.preventDefault();
+      const emailInput = document.getElementById('emailInput');
+      const email = emailInput.value;
+      // Send welcome email logic goes here
+
+      // Reset form
+      document.getElementById('newsletterForm').reset();
+    
+  </script>
+</body>
+</html>

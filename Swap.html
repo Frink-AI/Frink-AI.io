@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Frink Artificial Intelligence</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+      font-size: 10px;
+    }
+
+    header {
+      background-color: #030f04;
+      font-family: monospace;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .newsletter {
+      display: flex;
+      align-items: center;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+
+    .newsletter input[type="submit"] {
+      background-color: #918925;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #918925;
+      font-family: monospace;
+      font-size: xx-large;
+
+      color: white;
+      padding: 15px 15px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background-color: #ff5722;
+    }
+
+    .login {
+      display: flex;
+      align-items: center;
+    }
+
+    .login input[type="text"],
+    .login input[type="password"] {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+        
+    .login input[type="submit"] {
+      background-color: #918925;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .main-section {
+      background-image: url('background.jpg');
+      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-flexbox;
+      padding: 300px;
+    }
+
+    .inflight-image {
+      
+      position: absolute;
+      top: 200;
+      left: 0;
+      z-index: 11;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      
+    }
+
+    .footer {
+      background-color: #1d1d1d;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Frink Artificial Intelligence Swap</h2>
+    <nav>
+      <ul>
+        <re><a href="Frink-AI.html"class="button">Home</a></re>
+        <re><a href="Swap.html"class="button">Swap</a></re>
+        <re><a href="Staking.html"class="button">Staking</a></re>
+        <re><a href="pools.html"class="button">Pools</a></re>
+        <re><a href="Springfield.html"class="button">Springfield</a></re>
+        <re><a href="Road.html"class="button">Roadmap</a></re>
+        <re><a href="Burn.html"class="button">Burn</a></re>
+        
+      </ul>
+      </nav>
+  </header>
+
+  <main>
+    <div class="main-section">
+        
+      <div class="left-section">
+        <h2>Frink Artificial Intelligence Swap</h2>
+        <p></p>
+      </div>
+      </section>
+      <section>
+        <h2>Swap</h2>
+        <body>
+            <div class="liquidity-pool-container">
+              <h1>Swap your Token</h1>
+              <div class="connect-wallet-button">
+                <button type="button" class="connect-wallet-button">Connect Wallet</button>
+              </div>
+              <div class="liquidity-pool-form">
+                <div class="liquidity-pool-dropdowns">
+                  <div class="liquidity-pool-dropdown">
+                    <label for="tokenA">Token A:</label>
+                    <select id="tokenA" class="liquidity-pool-input">
+                      <option value="">Select Token A</option>
+                      <option value="tokenA1">AMD</option>
+                      <option value="tokenA2">pAMD</option>
+                      <option value="tokenA3">pUSD</option>
+                      <option value="tokenB1">POGAI</option>
+                      <option value="tokenB2">ARBINU</option>
+                      <option value="tokenB3">pPEPE</option>
+                      <option value="tokenB3">pBOB</option>
+                      <option value="tokenB3">pLADY</option>
+                      <option value="tokenB3">pWODJAK</option>
+                      <option value="tokenB3">pUSD</option>
+                    </select>
+                  </div>
+                  <div class="liquidity-pool-dropdown">
+                    <label for="tokenB">Token B:</label>
+                    <select id="tokenB" class="liquidity-pool-input">
+                      <option value="">Select Token B</option>
+                      <option value="tokenA1">AMD</option>
+                      <option value="tokenA2">pAMD</option>
+                      <option value="tokenA3">pUSD</option>
+                      <option value="tokenB1">POGAI</option>
+                      <option value="tokenB2">ARBINU</option>
+                      <option value="tokenB3">pPEPE</option>
+                      <option value="tokenB3">pBOB</option>
+                      <option value="tokenB3">pLADY</option>
+                      <option value="tokenB3">pWODJAK</option>
+                      <option value="tokenB3">pUSD</option>
+                    </select>
+                  </div>
+                </div>
+                <button type="button" class="pool-generate-button">Swap now!</button>
+              </div>
+              <div class="liquidity-pools-container">
+                <h2></h2>
+                <div class="liquidity-pools-dropdown">
+                  <label for="liquidityPools"></label>
+                  <select id="liquidityPools" class="liquidity-pool-input">
+                    <option value=""></option>
+                    <option value="pool1">FINKAI/pFINKAI</option>
+                    <option value="pool2">pFINKAI/pAMD</option>
+                    <option value="pool3">pFINKAI/pPOGAI</option>
+                    <option value="pool3">pFINKAI/pPEPE</option>
+                    <option value="pool3">pFINKAI/pBOB</option>
+                    <option value="pool3">pFINKAI/pLADY</option>
+                    <option value="pool3">pFINKAI/pPOGAI</option>
+                    <option value="pool3">pFINKAI/pWODJAK</option>
+              
+                  </select>
+                </div>
+                <div class="liquidity-pools-apr">
+                  <p>Dev. Tax: <span id="aprRate">0.005%</span></p>
+                  <p>Pool. Tax: <span id="aprRate">0.15%</span></p>
+                  <p>Marketing Tax: <span id="aprRate">0.10%</span></p>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Add your JavaScript code here to handle liquidity pool generation functionality -->
+            <script>
+              document.querySelector('.pool-generate-button').addEventListener('click', function() {
+                // Handle pool generation logic here
+                var tokenA = document.getElementById('tokenA').value;
+                var tokenB = document.getElementById('tokenB').value;
+          
+                // Perform necessary actions to generate the liquidity pool and display the result
+                var poolResult = document.createElement('p');
+                poolResult.innerHTML = 'Liquidity pool generated for Token A: ' + tokenA + '<br>' +
+                                       'and Token B: ' + tokenB;
+          
+                var poolGeneratorContainer = document.querySelector('.liquidity-pool-container');
+                poolGeneratorContainer.appendChild(poolResult);
+              });
+          
+              document.getElementById('liquidityPools').addEventListener('change', function() {
+                // Handle pool selection logic here
+                var selectedPool = this.value;
+          
+                // Perform necessary actions to retrieve and display pool details based on the selected option
+                var aprRate = document.getElementById('aprRate');
+          
+                if (selectedPool === 'pool1') {
+                  aprRate.textContent = '999%';
+                } else if (selectedPool === 'pool2') {
+                  aprRate.textContent = '9999%';
+                } else if (selectedPool === 'pool3') {
+                  aprRate.textContent = '999%';
+                } else {
+                  aprRate.textContent = '';
+                }
+              });
+            </script>
+          </body>
+     
+
+   
+
+    
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 Frink Artificial Intelligence. All rights reserved.</p>
+    <a href="#" class="button">Team</a>
+    <a href="#" class="button">Twitter</a>
+    <a href="#" class="button">Telegram</a>
+    <a href="#" class="button">PancakeSwap</a>
+    <a href="https://twitter.com/KennySwap" class="button">Follow us on Twitter</a>
+  </footer>
+
+  <script>
+    function sendWelcomeEmail(event) {
+      event.preventDefault();
+      const emailInput = document.getElementById('emailInput');
+      const email = emailInput.value;
+      // Send welcome email logic goes here
+
+      // Reset form
+      document.getElementById('newsletterForm').reset();
+    }
+  </script>
+</body>
+</html>
