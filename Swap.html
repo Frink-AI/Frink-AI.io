@@ -39,8 +39,8 @@
     }
 
     .newsletter input[type="submit"] {
-      background-color: #918925;
-      color: #fff;
+      background-color: #f8ef6f;
+      color: rgb(8, 8, 8);
       border: none;
       padding: 8px 12px;
       border-radius: 4px;
@@ -49,11 +49,11 @@
 
     .button {
       display: inline-block;
-      background-color: #918925;
+      background-color: #f8ef6f;
       font-family: monospace;
       font-size: xx-large;
 
-      color: white;
+      color: rgb(8, 8, 8);
       padding: 15px 15px;
       border-radius: 30px;
       text-decoration: none;
@@ -78,8 +78,8 @@
     }
         
     .login input[type="submit"] {
-      background-color: #918925;
-      color: #fff;
+      background-color: #f8ef6f;
+      color: rgb(8, 8, 8);
       border: none;
       padding: 8px 12px;
       border-radius: 4px;
@@ -93,7 +93,7 @@
       background-position: center;
       background-repeat: no-repeat;
       display: inline-flexbox;
-      padding: 300px;
+      padding: 400px;
     }
 
     .inflight-image {
@@ -118,8 +118,23 @@
     }
 
     .footer a {
-      color: #fff;
+      color: rgb(8, 8, 8);
+
       text-decoration: none;
+    }
+    .liquidity-pool-container {
+      background-image: url('Leonardo_Creative_whitepaper_background_layout_yellow_Artifici_0.jpg');
+      background-position: center;
+      position: absolute;
+      top: 180px;
+      left: 200px;
+
+      max-width: 180px;
+      margin: 0 auto;
+      padding: 150px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 50px;
     }
   </style>
 </head>
@@ -134,8 +149,9 @@
         <re><a href="Staking.html"class="button">Staking</a></re>
         <re><a href="pools.html"class="button">Pools</a></re>
         <re><a href="Springfield.html"class="button">Springfield</a></re>
-        <re><a href="Road.html"class="button">Roadmap</a></re>
+        <re><a href="Roadmap2.html"class="button">Roadmap</a></re>
         <re><a href="Burn.html"class="button">Burn</a></re>
+        <re><a href="Whitepaper.pdf"class="button">Whitepaper</a></re>
         
       </ul>
       </nav>
@@ -145,14 +161,15 @@
     <div class="main-section">
         
       <div class="left-section">
-        <h2>Frink Artificial Intelligence Swap</h2>
+        <h2></h2>
         <p></p>
       </div>
       </section>
       <section>
         <h2>Swap</h2>
         <body>
-            <div class="liquidity-pool-container">
+             <div class="liquidity-pool-container"> 
+              
               <h1>Swap your Token</h1>
               <div class="connect-wallet-button">
                 <button type="button" class="connect-wallet-button">Connect Wallet</button>
@@ -163,32 +180,39 @@
                     <label for="tokenA">Token A:</label>
                     <select id="tokenA" class="liquidity-pool-input">
                       <option value="">Select Token A</option>
-                      <option value="tokenA1">AMD</option>
-                      <option value="tokenA2">pAMD</option>
-                      <option value="tokenA3">pUSD</option>
-                      <option value="tokenB1">POGAI</option>
+                      <option value="">Select Token A</option>
+                      <option value="tokenA1">FRINKAI</option>
+                      <option value="tokenA2">pFRINKAI</option>
+                      <option value="tokenA2">sFRINKAI</option>
+
+                      <option value="tokenA3">SIMPSON</option>
+                      <option value="tokenB1">BART</option>
                       <option value="tokenB2">ARBINU</option>
-                      <option value="tokenB3">pPEPE</option>
-                      <option value="tokenB3">pBOB</option>
-                      <option value="tokenB3">pLADY</option>
-                      <option value="tokenB3">pWODJAK</option>
-                      <option value="tokenB3">pUSD</option>
+                      <option value="tokenB3">PEPE</option>
+                      <option value="tokenB3">BOB</option>
+                      <option value="tokenB3">LADY</option>
+                      <option value="tokenB3">WODJAK</option>
+                      <option value="tokenB3"></option>
                     </select>
                   </div>
                   <div class="liquidity-pool-dropdown">
                     <label for="tokenB">Token B:</label>
                     <select id="tokenB" class="liquidity-pool-input">
                       <option value="">Select Token B</option>
-                      <option value="tokenA1">AMD</option>
-                      <option value="tokenA2">pAMD</option>
-                      <option value="tokenA3">pUSD</option>
-                      <option value="tokenB1">POGAI</option>
+                      <option value="">Select Token A</option>
+                      <option value="tokenA1">FRINKAI</option>
+                      <option value="tokenA2">pFRINKAI</option>
+                      <option value="tokenA2">sFRINKAI</option>
+
+                      <option value="tokenA3">SIMPSON</option>
+                      <option value="tokenB1">BART</option>
                       <option value="tokenB2">ARBINU</option>
-                      <option value="tokenB3">pPEPE</option>
-                      <option value="tokenB3">pBOB</option>
-                      <option value="tokenB3">pLADY</option>
-                      <option value="tokenB3">pWODJAK</option>
-                      <option value="tokenB3">pUSD</option>
+                      <option value="tokenB3">PEPE</option>
+                      <option value="tokenB3">BOB</option>
+                      <option value="tokenB3">LADY</option>
+                      <option value="tokenB3">WODJAK</option>
+                      <option value="tokenB3"></option>
+                      
                     </select>
                   </div>
                 </div>
@@ -200,14 +224,15 @@
                   <label for="liquidityPools"></label>
                   <select id="liquidityPools" class="liquidity-pool-input">
                     <option value=""></option>
-                    <option value="pool1">FINKAI/pFINKAI</option>
-                    <option value="pool2">pFINKAI/pAMD</option>
-                    <option value="pool3">pFINKAI/pPOGAI</option>
-                    <option value="pool3">pFINKAI/pPEPE</option>
-                    <option value="pool3">pFINKAI/pBOB</option>
-                    <option value="pool3">pFINKAI/pLADY</option>
-                    <option value="pool3">pFINKAI/pPOGAI</option>
-                    <option value="pool3">pFINKAI/pWODJAK</option>
+                    <option value="pool1">FRINKAI/pFRINKAI</option>
+                    <option value="pool3">pFRINKAI/pPOGAI</option>
+                    <option value="pool3">pFRINKAI/pPEPE</option>
+                    <option value="pool3">pFRINKAI/pBOB</option>
+                    <option value="pool3">pFRINKAI/pLADY</option>
+                    <option value="pool3">pFRINKAI/pPOGAI</option>
+                    <option value="pool3">pFRINKAI/pWODJAK</option>
+                    <option value="pool3">pFRINKAI/pDOGE</option>
+                    <option value="pool3">pFRINKAI/pSHIB</option>
               
                   </select>
                 </div>
@@ -263,12 +288,13 @@
 
   <footer class="footer">
     <p>&copy; 2023 Frink Artificial Intelligence. All rights reserved.</p>
-    <a href="#" class="button">Team</a>
-    <a href="#" class="button">Twitter</a>
-    <a href="#" class="button">Telegram</a>
-    <a href="#" class="button">PancakeSwap</a>
-    <a href="https://twitter.com/KennySwap" class="button">Follow us on Twitter</a>
-  </footer>
+    <a href="https://t.me/FrinkAI" target="_blank">
+      <img src="https://telegram.org/img/t_logo.png" alt="Telegram Logo" width="60" height="60">
+    </a>
+    <a href="https://twitter.com/FrinkAI" target="_blank">
+      <img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" alt="Twitter Logo" width="60" height="60">
+    </footer>
+  </body>
 
   <script>
     function sendWelcomeEmail(event) {
